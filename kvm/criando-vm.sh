@@ -13,3 +13,9 @@ virt-install \
   --graphics spice \
   --console pty,target_type=serial \
   --boot hd,cdrom
+
+
+
+ export GI_TYPELIB_PATH=/usr/local/lib64/girepository-1.0:libosinfo-1.0.typelib
+
+virt-manager
